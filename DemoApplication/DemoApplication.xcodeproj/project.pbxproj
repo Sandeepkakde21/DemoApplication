@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		33512854247BB4DE005643D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33512853247BB4DE005643D4 /* AppDelegate.swift */; };
 		33512856247BB4DE005643D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33512855247BB4DE005643D4 /* SceneDelegate.swift */; };
-		33512858247BB4DE005643D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33512857247BB4DE005643D4 /* ViewController.swift */; };
+		33512858247BB4DE005643D4 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33512857247BB4DE005643D4 /* BaseViewController.swift */; };
 		3351285B247BB4DE005643D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33512859247BB4DE005643D4 /* Main.storyboard */; };
 		3351285D247BB4E0005643D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3351285C247BB4E0005643D4 /* Assets.xcassets */; };
 		33512860247BB4E0005643D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3351285E247BB4E0005643D4 /* LaunchScreen.storyboard */; };
+		33512869247BB654005643D4 /* HelperUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33512868247BB654005643D4 /* HelperUtilities.swift */; };
+		3351286B247BC9F5005643D4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3351286A247BC9F5005643D4 /* LoginViewController.swift */; };
+		3351286D247BDD80005643D4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3351286C247BDD80005643D4 /* MenuViewController.swift */; };
+		33512870247BFA80005643D4 /* MenuHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3351286F247BFA80005643D4 /* MenuHeaderTableViewCell.swift */; };
+		33512872247BFA95005643D4 /* MenuTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33512871247BFA95005643D4 /* MenuTitleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33512850247BB4DE005643D4 /* DemoApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33512853247BB4DE005643D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33512855247BB4DE005643D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33512857247BB4DE005643D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33512857247BB4DE005643D4 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		3351285A247BB4DE005643D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3351285C247BB4E0005643D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3351285F247BB4E0005643D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33512861247BB4E0005643D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33512868247BB654005643D4 /* HelperUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperUtilities.swift; sourceTree = "<group>"; };
+		3351286A247BC9F5005643D4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3351286C247BDD80005643D4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3351286F247BFA80005643D4 /* MenuHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		33512871247BFA95005643D4 /* MenuTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTitleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,36 @@
 		33512852247BB4DE005643D4 /* DemoApplication */ = {
 			isa = PBXGroup;
 			children = (
+				3351286E247BF9FC005643D4 /* TableViewCell */,
+				33512867247BB5F5005643D4 /* Utilities */,
 				33512853247BB4DE005643D4 /* AppDelegate.swift */,
 				33512855247BB4DE005643D4 /* SceneDelegate.swift */,
-				33512857247BB4DE005643D4 /* ViewController.swift */,
+				33512857247BB4DE005643D4 /* BaseViewController.swift */,
+				3351286A247BC9F5005643D4 /* LoginViewController.swift */,
+				3351286C247BDD80005643D4 /* MenuViewController.swift */,
 				33512859247BB4DE005643D4 /* Main.storyboard */,
 				3351285C247BB4E0005643D4 /* Assets.xcassets */,
 				3351285E247BB4E0005643D4 /* LaunchScreen.storyboard */,
 				33512861247BB4E0005643D4 /* Info.plist */,
 			);
 			path = DemoApplication;
+			sourceTree = "<group>";
+		};
+		33512867247BB5F5005643D4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				33512868247BB654005643D4 /* HelperUtilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3351286E247BF9FC005643D4 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				3351286F247BFA80005643D4 /* MenuHeaderTableViewCell.swift */,
+				33512871247BFA95005643D4 /* MenuTitleTableViewCell.swift */,
+			);
+			path = TableViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33512858247BB4DE005643D4 /* ViewController.swift in Sources */,
+				33512869247BB654005643D4 /* HelperUtilities.swift in Sources */,
+				33512872247BFA95005643D4 /* MenuTitleTableViewCell.swift in Sources */,
+				3351286D247BDD80005643D4 /* MenuViewController.swift in Sources */,
+				33512870247BFA80005643D4 /* MenuHeaderTableViewCell.swift in Sources */,
+				33512858247BB4DE005643D4 /* BaseViewController.swift in Sources */,
 				33512854247BB4DE005643D4 /* AppDelegate.swift in Sources */,
+				3351286B247BC9F5005643D4 /* LoginViewController.swift in Sources */,
 				33512856247BB4DE005643D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
