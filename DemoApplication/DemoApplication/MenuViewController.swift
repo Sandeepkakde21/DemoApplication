@@ -7,9 +7,19 @@
 //
 
 import UIKit
+public enum MenuTitle: String {
+    case titile1 = "title1"
+    case titile2 = "title2"
+    case titile3 = "title3"
+    case titile4 = "title4"
+}
+
+protocol MenuProtocol {
+    func menuClickedWith(index menuIndex: Int, AndTitle menuTitle: String)
+}
 
 class MenuViewController: UIViewController {
-    
+    var delegate: MenuProtocol?
     @IBOutlet weak var menuTableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +52,10 @@ extension MenuViewController: UITableViewDataSource, UITableViewDelegate {
             return 150
         }
         return 70
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        delegate?.menuClickedWith(index: indexPath.row, AndTitle: MenuTitle.titile1.rawValue)
     }
     
     

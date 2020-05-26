@@ -29,7 +29,12 @@ class BaseViewController: UIViewController {
 }
 
 
-extension BaseViewController {
+extension BaseViewController: MenuProtocol {
+    
+    func menuClickedWith(index menuIndex: Int, AndTitle menuTitle: String) {
+        print(menuTitle)
+    }
+    
     func initialization() {
         buttonMenu.backgroundColor = .clear
         labelTitle.font = appHeaderFont
@@ -56,7 +61,6 @@ extension BaseViewController {
         } else {
             //Show  error
         }
-        
         
     }
 }
