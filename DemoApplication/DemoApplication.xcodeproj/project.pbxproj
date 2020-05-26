@@ -18,6 +18,7 @@
 		3351286D247BDD80005643D4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3351286C247BDD80005643D4 /* MenuViewController.swift */; };
 		33512870247BFA80005643D4 /* MenuHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3351286F247BFA80005643D4 /* MenuHeaderTableViewCell.swift */; };
 		33512872247BFA95005643D4 /* MenuTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33512871247BFA95005643D4 /* MenuTitleTableViewCell.swift */; };
+		33512874247D1086005643D4 /* AboutCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33512873247D1086005643D4 /* AboutCoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		3351286C247BDD80005643D4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		3351286F247BFA80005643D4 /* MenuHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		33512871247BFA95005643D4 /* MenuTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTitleTableViewCell.swift; sourceTree = "<group>"; };
+		33512873247D1086005643D4 /* AboutCoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				33512857247BB4DE005643D4 /* BaseViewController.swift */,
 				3351286A247BC9F5005643D4 /* LoginViewController.swift */,
 				3351286C247BDD80005643D4 /* MenuViewController.swift */,
+				33512873247D1086005643D4 /* AboutCoreViewController.swift */,
 				33512859247BB4DE005643D4 /* Main.storyboard */,
 				3351285C247BB4E0005643D4 /* Assets.xcassets */,
 				3351285E247BB4E0005643D4 /* LaunchScreen.storyboard */,
@@ -176,6 +179,7 @@
 				33512858247BB4DE005643D4 /* BaseViewController.swift in Sources */,
 				33512854247BB4DE005643D4 /* AppDelegate.swift in Sources */,
 				3351286B247BC9F5005643D4 /* LoginViewController.swift in Sources */,
+				33512874247D1086005643D4 /* AboutCoreViewController.swift in Sources */,
 				33512856247BB4DE005643D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
