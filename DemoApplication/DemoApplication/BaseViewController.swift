@@ -24,7 +24,6 @@ class BaseViewController: UIViewController {
     
     @IBAction func menuAction(_ sender: UIButton) {
         addMenu()
-        
     }
     
 }
