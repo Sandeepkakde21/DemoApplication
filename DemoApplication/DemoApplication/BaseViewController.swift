@@ -13,6 +13,7 @@ class BaseViewController: UIViewController {
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var viewHeader: UIView!
     var menuVC: MenuViewController?
+    var test = "Test String"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +35,6 @@ extension BaseViewController {
         buttonMenu.backgroundColor = .clear
         labelTitle.font = appHeaderFont
         viewHeader.backgroundColor = appThemeColor
-        
     }
     
     func addMenu() {
@@ -56,7 +56,6 @@ extension BaseViewController {
         } else {
             //Show  error
         }
-        
-        
     }
+    
 }
