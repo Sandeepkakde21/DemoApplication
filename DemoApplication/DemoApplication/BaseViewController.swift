@@ -13,6 +13,7 @@ class BaseViewController: UIViewController {
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var viewHeader: UIView!
     var menuVC: MenuViewController?
+    var test = "Test String"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,23 +24,16 @@ class BaseViewController: UIViewController {
     
     @IBAction func menuAction(_ sender: UIButton) {
         addMenu()
-        
     }
     
 }
 
 
-extension BaseViewController: MenuProtocol {
-    
-    func menuClickedWith(index menuIndex: Int, AndTitle menuTitle: String) {
-        print(menuTitle)
-    }
-    
+extension BaseViewController {
     func initialization() {
         buttonMenu.backgroundColor = .clear
         labelTitle.font = appHeaderFont
         viewHeader.backgroundColor = appThemeColor
-        
     }
     
     func addMenu() {
@@ -61,6 +55,6 @@ extension BaseViewController: MenuProtocol {
         } else {
             //Show  error
         }
-        
     }
+    
 }
