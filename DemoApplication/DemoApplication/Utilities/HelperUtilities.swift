@@ -28,3 +28,15 @@ extension UIButton {
 extension UIViewController {
 
 }
+
+//MARK: Constant
+
+let MENU_PERSONAL_DETAILS = "Personal Details"
+let MENU_CONTACT_INFO = "Contact Info"
+let MENU_MY_ORGANIZATION_CHART = "My Organization Chart"
+let MENU_ANNOUNCMENT = "Announcments"
+let MENU_NOTIFICATION = "Notification"
+let MENU_MY_PUBLIC_PROFILE = "My Public Profile"
+
+
+
