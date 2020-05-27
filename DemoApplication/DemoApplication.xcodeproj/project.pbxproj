@@ -18,6 +18,17 @@
 		3351286D247BDD80005643D4 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3351286C247BDD80005643D4 /* MenuViewController.swift */; };
 		33512870247BFA80005643D4 /* MenuHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3351286F247BFA80005643D4 /* MenuHeaderTableViewCell.swift */; };
 		33512872247BFA95005643D4 /* MenuTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33512871247BFA95005643D4 /* MenuTitleTableViewCell.swift */; };
+		4D2B7C95247D0F1300D9083D /* PersonalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B7C94247D0F1300D9083D /* PersonalInfoViewController.swift */; };
+		4D2B7C97247D0F2B00D9083D /* JobInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B7C96247D0F2B00D9083D /* JobInfoViewController.swift */; };
+		4D3553A5247CEF5D00C07170 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3553A4247CEF5D00C07170 /* HomeScreenViewController.swift */; };
+		4D3553A8247CEFC700C07170 /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3553A7247CEFC700C07170 /* HomeScreen.storyboard */; };
+		4DBC0888247D7C11001820CD /* ProfileImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC0887247D7C11001820CD /* ProfileImageCell.swift */; };
+		4DBC088A247D7C23001820CD /* DetailSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC0889247D7C23001820CD /* DetailSelectionCell.swift */; };
+		4DBC088C247D7C33001820CD /* ConatinerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBC088B247D7C33001820CD /* ConatinerCell.swift */; };
+		4DD1C709247E11D900FAEB1A /* PersonalDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1C708247E11D900FAEB1A /* PersonalDetailCell.swift */; };
+		4DD1C70B247E11F100FAEB1A /* AddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1C70A247E11F100FAEB1A /* AddressCell.swift */; };
+		4DD1C70D247E129200FAEB1A /* JobDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1C70C247E129200FAEB1A /* JobDetailCell.swift */; };
+		4DD1C70F247E12BB00FAEB1A /* SalaryDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1C70E247E12BB00FAEB1A /* SalaryDetailCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +45,17 @@
 		3351286C247BDD80005643D4 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		3351286F247BFA80005643D4 /* MenuHeaderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHeaderTableViewCell.swift; sourceTree = "<group>"; };
 		33512871247BFA95005643D4 /* MenuTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTitleTableViewCell.swift; sourceTree = "<group>"; };
+		4D2B7C94247D0F1300D9083D /* PersonalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInfoViewController.swift; sourceTree = "<group>"; };
+		4D2B7C96247D0F2B00D9083D /* JobInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobInfoViewController.swift; sourceTree = "<group>"; };
+		4D3553A4247CEF5D00C07170 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		4D3553A7247CEFC700C07170 /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
+		4DBC0887247D7C11001820CD /* ProfileImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageCell.swift; sourceTree = "<group>"; };
+		4DBC0889247D7C23001820CD /* DetailSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailSelectionCell.swift; sourceTree = "<group>"; };
+		4DBC088B247D7C33001820CD /* ConatinerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConatinerCell.swift; sourceTree = "<group>"; };
+		4DD1C708247E11D900FAEB1A /* PersonalDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDetailCell.swift; sourceTree = "<group>"; };
+		4DD1C70A247E11F100FAEB1A /* AddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCell.swift; sourceTree = "<group>"; };
+		4DD1C70C247E129200FAEB1A /* JobDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailCell.swift; sourceTree = "<group>"; };
+		4DD1C70E247E12BB00FAEB1A /* SalaryDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryDetailCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +88,7 @@
 		33512852247BB4DE005643D4 /* DemoApplication */ = {
 			isa = PBXGroup;
 			children = (
+				4D3553A3247CEF1F00C07170 /* HomeScreen */,
 				3351286E247BF9FC005643D4 /* TableViewCell */,
 				33512867247BB5F5005643D4 /* Utilities */,
 				33512853247BB4DE005643D4 /* AppDelegate.swift */,
@@ -96,6 +119,48 @@
 				33512871247BFA95005643D4 /* MenuTitleTableViewCell.swift */,
 			);
 			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		4D2B7C98247D133500D9083D /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				4DBC0887247D7C11001820CD /* ProfileImageCell.swift */,
+				4DBC0889247D7C23001820CD /* DetailSelectionCell.swift */,
+				4DBC088B247D7C33001820CD /* ConatinerCell.swift */,
+				4DD1C708247E11D900FAEB1A /* PersonalDetailCell.swift */,
+				4DD1C70A247E11F100FAEB1A /* AddressCell.swift */,
+				4DD1C70C247E129200FAEB1A /* JobDetailCell.swift */,
+				4DD1C70E247E12BB00FAEB1A /* SalaryDetailCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		4D3553A3247CEF1F00C07170 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4D2B7C98247D133500D9083D /* TableViewCell */,
+				4D3553A9247CEFCC00C07170 /* ViewController */,
+				4D3553A6247CEF6200C07170 /* Storyboard */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		4D3553A6247CEF6200C07170 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4D3553A7247CEFC700C07170 /* HomeScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4D3553A9247CEFCC00C07170 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4D3553A4247CEF5D00C07170 /* HomeScreenViewController.swift */,
+				4D2B7C94247D0F1300D9083D /* PersonalInfoViewController.swift */,
+				4D2B7C96247D0F2B00D9083D /* JobInfoViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				33512860247BB4E0005643D4 /* LaunchScreen.storyboard in Resources */,
+				4D3553A8247CEFC700C07170 /* HomeScreen.storyboard in Resources */,
 				3351285D247BB4E0005643D4 /* Assets.xcassets in Resources */,
 				3351285B247BB4DE005643D4 /* Main.storyboard in Resources */,
 			);
@@ -171,9 +237,19 @@
 			files = (
 				33512869247BB654005643D4 /* HelperUtilities.swift in Sources */,
 				33512872247BFA95005643D4 /* MenuTitleTableViewCell.swift in Sources */,
+				4DD1C70F247E12BB00FAEB1A /* SalaryDetailCell.swift in Sources */,
+				4DD1C70B247E11F100FAEB1A /* AddressCell.swift in Sources */,
+				4D2B7C95247D0F1300D9083D /* PersonalInfoViewController.swift in Sources */,
+				4DD1C709247E11D900FAEB1A /* PersonalDetailCell.swift in Sources */,
+				4DBC088C247D7C33001820CD /* ConatinerCell.swift in Sources */,
 				3351286D247BDD80005643D4 /* MenuViewController.swift in Sources */,
 				33512870247BFA80005643D4 /* MenuHeaderTableViewCell.swift in Sources */,
+				4DBC0888247D7C11001820CD /* ProfileImageCell.swift in Sources */,
 				33512858247BB4DE005643D4 /* BaseViewController.swift in Sources */,
+				4DBC088A247D7C23001820CD /* DetailSelectionCell.swift in Sources */,
+				4D3553A5247CEF5D00C07170 /* HomeScreenViewController.swift in Sources */,
+				4D2B7C97247D0F2B00D9083D /* JobInfoViewController.swift in Sources */,
+				4DD1C70D247E129200FAEB1A /* JobDetailCell.swift in Sources */,
 				33512854247BB4DE005643D4 /* AppDelegate.swift in Sources */,
 				3351286B247BC9F5005643D4 /* LoginViewController.swift in Sources */,
 				33512856247BB4DE005643D4 /* SceneDelegate.swift in Sources */,
