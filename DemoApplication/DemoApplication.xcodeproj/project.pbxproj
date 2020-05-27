@@ -29,6 +29,7 @@
 		4DD1C70B247E11F100FAEB1A /* AddressCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1C70A247E11F100FAEB1A /* AddressCell.swift */; };
 		4DD1C70D247E129200FAEB1A /* JobDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1C70C247E129200FAEB1A /* JobDetailCell.swift */; };
 		4DD1C70F247E12BB00FAEB1A /* SalaryDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD1C70E247E12BB00FAEB1A /* SalaryDetailCell.swift */; };
+		33512874247D1086005643D4 /* AboutCoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33512873247D1086005643D4 /* AboutCoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		4DD1C70A247E11F100FAEB1A /* AddressCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressCell.swift; sourceTree = "<group>"; };
 		4DD1C70C247E129200FAEB1A /* JobDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobDetailCell.swift; sourceTree = "<group>"; };
 		4DD1C70E247E12BB00FAEB1A /* SalaryDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalaryDetailCell.swift; sourceTree = "<group>"; };
+		33512873247D1086005643D4 /* AboutCoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				33512857247BB4DE005643D4 /* BaseViewController.swift */,
 				3351286A247BC9F5005643D4 /* LoginViewController.swift */,
 				3351286C247BDD80005643D4 /* MenuViewController.swift */,
+				33512873247D1086005643D4 /* AboutCoreViewController.swift */,
 				33512859247BB4DE005643D4 /* Main.storyboard */,
 				3351285C247BB4E0005643D4 /* Assets.xcassets */,
 				3351285E247BB4E0005643D4 /* LaunchScreen.storyboard */,
@@ -252,6 +255,7 @@
 				4DD1C70D247E129200FAEB1A /* JobDetailCell.swift in Sources */,
 				33512854247BB4DE005643D4 /* AppDelegate.swift in Sources */,
 				3351286B247BC9F5005643D4 /* LoginViewController.swift in Sources */,
+				33512874247D1086005643D4 /* AboutCoreViewController.swift in Sources */,
 				33512856247BB4DE005643D4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
