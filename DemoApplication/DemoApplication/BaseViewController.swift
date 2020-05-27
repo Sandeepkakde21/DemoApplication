@@ -18,6 +18,13 @@ class BaseViewController: UIViewController, MenuProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         initialization()
+        let storyboard = UIStoryboard.init(name: StoryboardName.homeScreen, bundle: nil)
+        currentChildVC = (storyboard.instantiateViewController(withIdentifier: "HomeScreenViewController") as? HomeScreenViewController)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.4, execute: {
+            self.addChildViewControllerOnbase(childVC: self.currentChildVC)
+            
+        })
+
     }
     
     

@@ -58,9 +58,9 @@ extension HomeScreenViewController: UITableViewDataSource,UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         switch indexPath.row {
         case 0:
-            return 360.0
+            return 300.0
         case 1:
-            return 90.0
+            return 80.0
         case 2:
             return 600.0
             
