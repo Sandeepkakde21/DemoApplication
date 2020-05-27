@@ -13,12 +13,13 @@ class BaseViewController: UIViewController {
     @IBOutlet weak var labelTitle: UILabel!
     @IBOutlet weak var viewHeader: UIView!
     var menuVC: MenuViewController?
-    var test = "Test String"
-    
+    var homeVC: HomeScreenViewController?
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         initialization()
+        addHomeScreen()
     }
     
     
@@ -56,5 +57,20 @@ extension BaseViewController {
             //Show  error
         }
     }
+    
+    func addHomeScreen() {
+       let sb = UIStoryboard(name: StoryboardName.homeScreen, bundle: nil)
+        homeVC =  sb.instantiateViewController(withIdentifier: "HomeScreenViewController") as? HomeScreenViewController
+        
+        if let home = homeVC {
+            addChild(home)
+            view.addSubview(home.view)
+            home.didMove(toParent: self)
+        } else {
+            
+            // error
+        }
+    }
+
     
 }
