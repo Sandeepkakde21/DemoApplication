@@ -12,6 +12,8 @@ let appThemeColor = UIColor(red: 88.0/255, green: 192.0/255, blue: 249.0/255, al
 let appHeaderFont  = UIFont(name: "Verdana", size: 24)
 let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
 let viewBgColour = UIColor(red: 229.0/255, green: 229.0/255, blue: 234.0/255, alpha: 1)
+let buttonFont  = UIFont(name: "Verdana", size: 18)
+
 
 struct StoryboardName {
     static let homeScreen = "HomeScreen"

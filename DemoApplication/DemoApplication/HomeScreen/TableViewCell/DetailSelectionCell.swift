@@ -19,6 +19,15 @@ class DetailSelectionCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        personalInfoLabel.roundedCorner()
+        jobInfoLabel.roundedCorner()
+        personalInfoLabel.border(width: 5.0)
+        jobInfoLabel.border(width: 5.0)
+        personalInfoLabel.titleLabel?.font = buttonFont
+        jobInfoLabel.titleLabel?.font = buttonFont
+        jobInfoLabel.titleLabel?.textColor = appThemeColor
+        personalInfoLabel.titleLabel?.textColor = appThemeColor
+
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
