@@ -18,13 +18,6 @@ class BaseViewController: UIViewController, MenuProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         initialization()
-        let storyboard = UIStoryboard.init(name: StoryboardName.homeScreen, bundle: nil)
-        currentChildVC = (storyboard.instantiateViewController(withIdentifier: "HomeScreenViewController") as? HomeScreenViewController)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.4, execute: {
-            self.addChildViewControllerOnbase(childVC: self.currentChildVC)
-            
-        })
-
     }
     
     
@@ -40,13 +33,34 @@ extension BaseViewController {
         buttonMenu.backgroundColor = .clear
         labelTitle.font = appHeaderFont
         viewHeader.backgroundColor = appThemeColor
+        defaultLandingMenu()
+    }
+    
+    func defaultLandingMenu() {
+        currentChildVC = (storyboardHome.instantiateViewController(withIdentifier: "HomeScreenViewController") as? HomeScreenViewController)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.4, execute: {
+            self.addChildViewControllerOnbase(childVC: self.currentChildVC)
+        })
     }
     
     //MARK: Menu delegate
     func menuClickedWith(index menuIndex: Int, AndTitle menuTitle: String) {
         print(menuTitle)
         removeChildVC()
-        currentChildVC = storyboard?.instantiateViewController(withIdentifier: "AboutCoreViewController") as? AboutCoreViewController
+        switch menuTitle {
+        case MenuTitle.myOrganizationChart.rawValue:
+            currentChildVC = storyboard?.instantiateViewController(withIdentifier: "MyOrganizationChartViewController") as? MyOrganizationChartViewController
+            
+        case MenuTitle.personalDetails.rawValue:
+            currentChildVC = (storyboardHome.instantiateViewController(withIdentifier: "HomeScreenViewController") as? HomeScreenViewController)
+            
+        case MenuTitle.announcement.rawValue, MenuTitle.notification.rawValue :
+            currentChildVC = (storyboard?.instantiateViewController(withIdentifier: "AnnouncmentViewController") as? AnnouncmentViewController)
+            
+        default:
+            currentChildVC = storyboard?.instantiateViewController(withIdentifier: "AboutCoreViewController") as? AboutCoreViewController
+        }
+        
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.4, execute: {
             self.addChildViewControllerOnbase(childVC: self.currentChildVC)
             
@@ -91,5 +105,4 @@ extension BaseViewController {
             child.removeFromParent()
         }
     }
-    
 }
